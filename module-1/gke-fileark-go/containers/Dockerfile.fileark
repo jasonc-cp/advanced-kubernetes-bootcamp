@@ -1,4 +1,4 @@
-FROM debian:9.1
+FROM debian:stretch-20210329
 
 RUN apt-get update && apt-get install -y ca-certificates
 
